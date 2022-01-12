@@ -2,7 +2,15 @@
 	margin: 15px;
 }
 
+div.radio, div.radio>label {
+	margin: 0;
+}
+
 #basic-details {
 	width: 25rem;
   border:1px black solid;
+}
+
+#click-me {
+	background-color: red;
 }
