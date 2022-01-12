@@ -1,0 +1,8 @@
+* {
+	margin: 15px;
+}
+
+#basic-details {
+	width: 25rem;
+  border:1px black solid;
+}

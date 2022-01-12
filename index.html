@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href='css/bootstrap.min.css' rel='stylesheet'>
+	<link href='css/style.css' rel='stylesheet'>
+	<script src='js/jquery-3.6.0.min.js'></script>
+	<script src='js/scripts.js'></script>
+	<title>Survey</title>
+</head>
+<body>
+	<h1>Friend Survey</h1>
+	<h3>Will you be my friend? Let's find out</h3>
+	<form id="basic-details">
+		<label for='friend-name'>What's your name?</label>
+		<input id='friend-name' type="text">
+
+		<label for="born">Date of birth:</label>
+  	<input id="born" class="form-control" type="date">
+
+		<label for='phone-num'>What's your name?</label>
+		<input id='phone-num' type="tel">
+
+		<label for="color">What is your favorite color?</label>
+		<input id="color" class="form-control" type="color">
+
+		<select class="form-control" id="beverage">
+			<option value="1">Coffee</option>
+			<option value="2">Tea</option>
+			<option value="3">Kombucha</option>
+			<option value="4">Water</option>
+		</select>
+
+		<div class="radio">
+			<label>
+				<input type="radio" name="flavor" value="chocolate" checked>
+				Chocolate
+			</label>
+		</div>
+		<div class="radio">
+			<label>
+				<input type="radio" name="flavor" value="vanilla">
+				Vanilla
+			</label>
+		</div>
+		<div class="radio">
+			<label>
+				<input type="radio" name="flavor" value="cookiesandcream">
+				Cookies & Cream
+			</label>
+		</div>
+
+		<button type="submit" class="btn">Add!</button>
+	</form>
+</body>
+</html>
